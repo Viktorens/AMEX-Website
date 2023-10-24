@@ -250,6 +250,10 @@ body.dark-theme {
   margin-bottom: var(--mb-2);
 }
 
+.home__button {
+  text-wrap: nowrap;
+}
+
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
@@ -360,6 +364,10 @@ body.dark-theme {
 
 .contact__content {
   row-gap: .75rem;
+}
+
+.contact__content a {
+  text-wrap: nowrap;
 }
 
 .contact__address {
